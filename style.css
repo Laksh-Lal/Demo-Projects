@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    height: 14vh;
+    background-color: black;
+    width: 100%;
+
+}
+.navimg{
+    float: left;
+    height: 14vh;
+    display: flex;
+    width: 10%;
+    
+}
+#nav-items{
+    display: flex;
+    padding-top: 2.5%;
+}
+
+.home{
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+  margin-left: 20%;
+}
+
+
+.home:hover{
+    color: red;
+    border-bottom: 1px solid red;
+    transition: 1s;
+}
+
+.shirts-nav{
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+  margin-left: 10%;
+
+}
+.shirts-nav:hover{
+    color: red;
+    border-bottom: 1px solid red;
+    transition: 1s;
+}
+.bottom-wear{
+ color: white;
+  text-decoration: none;
+  font-size: larger;
+  margin-left: 10%;
+
+}
+.bottom-wear:hover{
+    color: red;
+    border-bottom: 1px solid red;
+    transition: 1s;
+}
+.contact{
+   color: white;
+  text-decoration: none;
+  font-size: larger;
+  margin-left: 10%;
+
+
+}
+.contact:hover{
+    color: red;
+    border-bottom: 1px solid red;
+    transition: 1s;
+}
+.searchicon{
+  color: white;
+  float: right;
+  font-size: x-large;
+  margin-top: -2%;
+  margin-right: 3%;
+}
+.shopping{
+    color: white;
+  float: right;
+  font-size: x-large;
+  margin-top: -2%;
+  margin-right: 6%;
+}
+#vid-parent{
+    position: relative;
+    width: 100%;
+    height: 86vh;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: overlay;
+}
+#b-vid{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: -1;
+}
+.vid-button{
+    margin-top: 35%;
+    float: right;
+    margin-right: 10%;
+    background-color:black;
+    color:red;
+    border: none;
+    border-radius: 50px;
+    height: 7vh;
+    width: 10%;
+}
+.vid-button:hover{
+    color: black;
+    background-color: red;
+    transition: 1s;
+}

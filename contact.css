@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+#nav{
+    height: 14vh;
+    background-color: black;
+    width: 100%;
+
+}
+.navimg{
+    float: left;
+    height: 14vh;
+    display: flex;
+    width: 10%;
+    
+}
+#nav-items{
+    display: flex;
+    padding-top: 2.5%;
+}
+
+.home{
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+  margin-left: 20%;
+}
+
+
+.home:hover{
+    color: red;
+    border-bottom: 1px solid red;
+    transition: 1s;
+}
+
+.shirts-nav{
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+  margin-left: 10%;
+
+}
+.shirts-nav:hover{
+    color: red;
+    border-bottom: 1px solid red;
+    transition: 1s;
+}
+.bottom-wear{
+ color: white;
+  text-decoration: none;
+  font-size: larger;
+  margin-left: 10%;
+
+}
+.bottom-wear:hover{
+    color: red;
+    border-bottom: 1px solid red;
+    transition: 1s;
+}
+.contact{
+   color: white;
+  text-decoration: none;
+  font-size: larger;
+  margin-left: 10%;
+
+
+}
+.contact:hover{
+    color: red;
+    border-bottom: 1px solid red;
+    transition: 1s;
+}
+.searchicon{
+  color: white;
+  float: right;
+  font-size: x-large;
+  margin-top: -2%;
+  margin-right: 3%;
+}
+.shopping{
+    color: white;
+  float: right;
+  font-size: x-large;
+  margin-top: -2%;
+  margin-right: 6%;
+}
+.title-text{
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+}
+.t1{
+    color: white;
+    margin-left: 10%;
+    text-align: center;
+}
+.nav-items{
+    float: right;
+    margin-top: 1%;
+    margin-right: 3%;
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+}
+.marque{
+    color: white;
+}
+.ml1{
+    padding: 3%;
+}

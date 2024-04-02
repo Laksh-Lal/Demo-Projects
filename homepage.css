@@ -1,0 +1,429 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    height: 14vh;
+    background-color: black;
+    width: 100%;
+
+}
+.navimg{
+    float: left;
+    height: 14vh;
+    display: flex;
+    width: 10%;
+    
+}
+#nav-items{
+    display: flex;
+    padding-top: 2.5%;
+}
+
+.home{
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+  margin-left: 20%;
+}
+
+
+.home:hover{
+    color: red;
+    border-bottom: 1px solid red;
+    transition: 1s;
+}
+
+.shirts-nav{
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+  margin-left: 10%;
+
+}
+.shirts-nav:hover{
+    color: red;
+    border-bottom: 1px solid red;
+    transition: 1s;
+}
+.bottom-wear{
+ color: white;
+  text-decoration: none;
+  font-size: larger;
+  margin-left: 10%;
+
+}
+.bottom-wear:hover{
+    color: red;
+    border-bottom: 1px solid red;
+    transition: 1s;
+}
+.contact{
+   color: white;
+  text-decoration: none;
+  font-size: larger;
+  margin-left: 10%;
+
+
+}
+.contact:hover{
+    color: red;
+    border-bottom: 1px solid red;
+    transition: 1s;
+}
+.searchicon{
+  color: white;
+  float: right;
+  font-size: x-large;
+  margin-top: -2%;
+  margin-right: 3%;
+}
+.shopping{
+    color: white;
+  float: right;
+  font-size: x-large;
+  margin-top: -2%;
+  margin-right: 6%;
+}
+
+
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    height: 100vh;
+}
+
+/* Slider content */
+.slider-content {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+/* Slide item */
+.slide {
+    flex: 0 0 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Navigation buttons */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: white;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+
+.indicators {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.indicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.indicator.active {
+    background-color: white;
+}
+.logoimg{
+    height: 20vh;
+    margin-left: 43.5%;
+}
+.shirts-title{
+    color: white;
+    text-align: center;
+}
+.shirt-1{
+    display: flex;
+    position: relative;
+    width: 18%;
+    height: 60vh;
+    color: white;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+.shirt-1 img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+.s2:hover{
+    opacity: 0;
+    cursor: pointer;
+    filter: brightness(500%);
+}
+.sl1{
+    color: white;
+    font-size: larger;
+    text-align: center;
+    margin-left: 9%;
+}
+.shirt-2{
+    display: flex;
+    position: relative;
+    width: 18%;
+    height: 60vh;
+    color: white;
+    margin-top: -37%;
+    margin-left: 28%;
+}
+.shirt-2 img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+.s4:hover{
+    opacity: 0;
+    cursor: pointer;
+    filter: brightness(500%);
+}
+.shl2{
+    color: white;
+    font-size: larger;
+    margin-left: 33%;
+}
+.shirt-3{
+    display: flex;
+    position: relative;
+    width: 18%;
+    height: 60vh;
+    color: white;
+    margin-top: -37%;
+    margin-left: 53%;
+}
+.shirt-3 img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+.s6:hover{
+    opacity: 0;
+    cursor: pointer;
+    filter: brightness(500%);
+}
+.shl3{
+    color: white;
+    font-size: larger;
+    margin-left: 58%;
+}
+.shirt-4{
+    display: flex;
+    position: relative;
+    width: 18%;
+    height: 60vh;
+    color: white;
+    margin-top: -37%;
+    margin-left: 78%;
+}
+.shirt-4 img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+.s8:hover{
+    opacity: 0;
+    cursor: pointer;
+    filter: brightness(500%);
+}
+.shl4{
+    color: white;
+    font-size: larger;
+    margin-left: 83%;
+}
+.bottom-wear{
+    color: white;
+    text-align: center;
+}
+.Chino-1{
+    display: flex;
+    position: relative;
+    width: 18%;
+    height: 60vh;
+    color: white;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+.Chino-1 img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+.p2:hover{
+    opacity: 0;
+    cursor: pointer;
+    filter: brightness(500%);
+}
+.pl1{
+    color: white;
+    font-size: larger;
+    text-align: center;
+    margin-left: 9%;
+}
+.pl2{
+    color: white;
+    font-size: larger;
+    text-align: center;
+    margin-left: 9.7%;
+}
+
+.Chino-2{
+    display: flex;
+    position: relative;
+    width: 18%;
+    height: 60vh;
+    color: white;
+    margin-top: -37%;
+    margin-left: 28%;
+}
+.Chino-2 img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+.p4:hover{
+    opacity: 0;
+    cursor: pointer;
+    filter: brightness(500%);
+}
+.pl3{
+    color: white;
+    font-size: larger;
+    margin-left: 33%;
+}
+.pl4{
+    color: white;
+    font-size: larger;
+    margin-left: 33.7%;
+}
+.Chino-3{
+    display: flex;
+    position: relative;
+    width: 18%;
+    height: 60vh;
+    color: white;
+    margin-top: -37%;
+    margin-left: 53%;
+}
+.Chino-3 img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+.p6:hover{
+    opacity: 0;
+    cursor: pointer;
+    filter: brightness(500%);
+}
+.pl5{
+    color: white;
+    font-size: larger;
+    margin-left: 58%;
+}
+.pl6{
+    color: white;
+    font-size: larger;
+    margin-left: 58.7%;
+}
+.Chino-4{
+    display: flex;
+    position: relative;
+    width: 18%;
+    height: 60vh;
+    color: white;
+    margin-top: -37%;
+    margin-left: 78%;
+}
+.Chino-4 img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+.p8:hover{
+    opacity: 0;
+    cursor: pointer;
+    filter: brightness(500%);
+}
+.pl7{
+    color: white;
+    font-size: larger;
+    margin-left: 83%;
+}
+.pl8{
+    color: white;
+    font-size: larger;
+    margin-left: 83.7%;
+}
+.marque{
+    color: white;
+}
+.ml1{
+    padding: 3%;
+}
